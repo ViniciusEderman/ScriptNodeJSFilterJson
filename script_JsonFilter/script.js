@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-// Função para verificar se a "unidade" é igual a "BELO HORIZONTE (SERRA VERDE)/MG"
+// Função para verificar se o campo é igual a string passada"
 function campoParaVerificar(obj) {
   const campoApiString = ''; // verifique se algum campo string, exemplo: sexo(m)
   return obj.unidade.includes(campoApiString);
